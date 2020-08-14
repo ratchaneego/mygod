@@ -12,7 +12,6 @@ func WordCount(s string) map[string]int {
 	words := strings.Fields(sentense)
 	result := make(map[string]int)
 	
-
 	for _, i := range words {
 		result[i] = result[i] + 1
 	}
